@@ -1,0 +1,12 @@
+Package: UBR
+Type: Package
+Title: Unified Bayesian Regularization via Scale Mixture of Uniform Distributions
+Version: 0.1
+Date: 2018-09-11
+Authors: Himel Mallick (Merck Research Laboratories) <himel.mallick@merck.com>, Rahim Alhamzawi (University of Al-Qadisiyah) <rahim.alhamzawi@qu.edu.iq>
+Maintainer: Himel Mallick <himel.mallick@merck.com>
+Description: UBR provides Bayesian regularization methods for high-dimensional linear regression. The methods implemented in this package leverage a novel data augmentation scheme based on the scale mixture of uniform (SMU) distribution that leads to a set of efficient Gibbs samplers with tractable full conditional posterior distributions and superior performance over existing methods.
+Depends: R (>= 3.5.0), msm, tmvtnorm, tmvmixnorm, miscTools, glmnet, timeSeries, Bolstad2, coda, MCMCglmm
+License: MIT
+LazyData: TRUE
+RoxygenNote: 7.1.0
